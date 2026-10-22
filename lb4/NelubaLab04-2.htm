@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="Лабораторна робота 4. Вертикальні рядки, що біжать">
+   <meta name="keywords" content="HTML, marquee, вертикальний рух, рисунки">
+   <title>Вертикальні рядки, що біжять</title>
+</head>
+<body bgcolor="#FFFFFF">
+   <p align="center">
+      <font color="#333333" face="Arial" size="5"><b>Вертикальні рядки, що біжать</b></font>
+   </p>
+
+   <table align="center" cellspacing="10">
+   <tr valign="top" align="center">
+
+      <td>
+         <marquee direction="up" behavior="alternate" width="180" height="200" bgcolor="#99ff00" scrollamount="4">
+            <font color="#8b008b" face="Verdana" size="4"><b>Рядок 1</b></font><br>
+            <img src="img/diablo.gif" alt="Фото 1" width="100" height="75" border="2"><br>
+            <font color="#8b008b" face="Verdana" size="3"><i>Приклад вертикального рядку</i></font>
+         </marquee>
+      </td>
+
+      <td>
+         <marquee direction="up" behavior="scroll" loop="-1" width="180" height="200" bgcolor="#ffcc00" scrollamount="5">
+            <img src="img/biggrin.gif" alt="Фото 2" width="64" height="64" border="2"><br><br>
+            <img src="img/dance.gif" alt="Фото 3" width="96" height="64" border="2"><br><br>
+            <img src="img/hi.gif" alt="Фото 4" width="96" height="64" border="2">
+         </marquee>
+      </td>
+
+      <td>
+         <marquee direction="down" behavior="slide" width="180" height="200" bgcolor="#66ccff" scrollamount="5">
+            <img src="img/wacko1.gif" alt="Фото 1" width="75" height="75" border="2"><br><br>
+            <img src="img/rofl.gif" alt="Фото 2" width="100" height="75" border="2">
+         </marquee>
+      </td>
+
+      <td>
+         <marquee direction="up" behavior="scroll" scrolldelay="30" scrollamount="3" width="180" height="200" bgcolor="#ff99cc">
+            <font color="#000066" face="Comic Sans MS" size="4"><u>Мале запізнення</u></font>
+         </marquee>
+      </td>
+
+      <td>
+         <marquee direction="up" behavior="scroll" scrolldelay="300" scrollamount="10" width="180" height="200" bgcolor="#ccffcc">
+            <font color="#cc3300" face="Georgia" size="4"><b>Велике запізнення</b></font>
+         </marquee>
+      </td>
+
+   </tr>
+   </table>
+</body>
+</html>
